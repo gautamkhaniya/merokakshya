@@ -72,7 +72,7 @@ export default function CrossableBanner() {
           </p>
           <div className="mt-4 flex gap-2.5">
             <Link
-              href="https://evilcharts.com?ref=notesbuddy"
+              href="https://evilcharts.com?ref=merokakshya"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border-2 border-black px-4 py-2 text-xs font-bold shadow-[3px_3px_0px_0px_#000] transition-all duration-200 hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] focus:ring-2 focus:ring-black focus:ring-offset-2 focus:outline-none dark:border-white/20 dark:shadow-[3px_3px_0px_0px_#fff] dark:hover:shadow-[2px_2px_0px_0px_#fff] dark:focus:ring-white"

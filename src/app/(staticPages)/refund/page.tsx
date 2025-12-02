@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "subscription refund",
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/refund`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/refund`,
   },
   robots: {
     index: true,
@@ -37,11 +37,11 @@ export default function RefundPage() {
       <div className="flex w-full max-w-2xl flex-col gap-8">
         <section className="rounded-md border-2 border-black bg-zinc-100 p-6 shadow-[4px_4px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-900 dark:text-white dark:shadow-[4px_4px_0px_0px_#757373]">
           <h2 className="font-excon mb-2 text-2xl font-bold">
-            Refund Policy for Notes Buddy
+            Refund Policy for Mero Kakshya
           </h2>
           <p className="font-satoshi text-base">
-            At Notes Buddy, we provide digital educational resources. Due to the
-            nature of our products, all sales are final and we do not offer
+            At Mero Kakshya, we provide digital educational resources. Due to
+            the nature of our products, all sales are final and we do not offer
             refunds once a purchase is completed.
           </p>
         </section>

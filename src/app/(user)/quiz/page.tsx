@@ -28,11 +28,11 @@ export const metadata: Metadata = {
     "practice test",
   ],
   openGraph: {
-    title: "Interactive Quizzes - Test Your Knowledge | Notes Buddy",
+    title: "Interactive Quizzes - Test Your Knowledge | Mero Kakshya",
     description:
       "Challenge yourself with interactive quizzes designed to test your understanding and reinforce learning.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/quiz`,
-    siteName: "Notes Buddy",
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/quiz`,
+    siteName: "Mero Kakshya",
     locale: "en_US",
     type: "website",
   },
@@ -41,11 +41,11 @@ export const metadata: Metadata = {
     title: "Interactive Quizzes - Test Your Knowledge",
     description:
       "Challenge yourself with interactive quizzes designed to test your understanding and reinforce learning.",
-    site: "@notesbuddy",
-    creator: "@notesbuddy",
+    site: "@merokakshya",
+    creator: "@merokakshya",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/quiz`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/quiz`,
   },
   robots: {
     index: true,

@@ -44,12 +44,12 @@ export function convertPrismaValueToDisplayFormat(
 ): string {
   const displayMaps = {
     university: {
-      MEDICAPS: "Medicaps University",
-      IPS: "IPS University",
+      MEDICAPS: "IAAS",
+      IPS: "Loksewa",
     },
     degree: {
-      BTECH_CSE: "B.Tech CSE",
-      BTECH_IT: "B.Tech IT",
+      BTECH_CSE: "Agriculture",
+      BTECH_IT: "Forestry",
     },
     year: {
       FIRST_YEAR: "1st Year",

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sign In - Access Your Study Dashboard",
   description:
-    "Sign in to your Notes Buddy account to access personalized study notes, AI-powered learning tools, and track your academic progress.",
+    "Sign in to your Mero Kakshya account to access personalized study notes, AI-powered learning tools, and track your academic progress.",
   robots: {
     index: false,
     follow: true,

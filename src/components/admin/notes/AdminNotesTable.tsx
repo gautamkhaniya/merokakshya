@@ -40,9 +40,9 @@ export default function AdminNotesTable({
   const getUniversityDisplay = (value: string) => {
     switch (value) {
       case "medicaps":
-        return "Medicaps University";
+        return "IAAS";
       case "ips":
-        return "IPS University";
+        return "Loksewa";
       default:
         return value;
     }
@@ -51,9 +51,9 @@ export default function AdminNotesTable({
   const getDegreeDisplay = (value: string) => {
     switch (value) {
       case "btech-cse":
-        return "B.Tech CSE";
+        return "Agriculture";
       case "btech-it":
-        return "B.Tech IT";
+        return "Forestry";
       default:
         return value;
     }

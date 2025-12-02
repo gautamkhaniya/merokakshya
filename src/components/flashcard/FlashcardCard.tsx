@@ -104,7 +104,7 @@ export default function FlashcardCard({
           className="border-2 border-black bg-white px-3 py-1 font-bold text-black shadow-[2px_2px_0px_0px_#000] transition-all hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[3px_3px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-800 dark:text-white dark:shadow-[2px_2px_0px_0px_#757373] dark:hover:shadow-[3px_3px_0px_0px_#757373]"
         >
           <GraduationCapIcon weight="duotone" className="mr-1.5 h-3.5 w-3.5" />
-          {subject || "Notes Buddy Quiz"}
+          {subject || "Mero Kakshya Quiz"}
         </Badge>
       </div>
 

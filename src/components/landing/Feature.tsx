@@ -123,12 +123,12 @@ export default function Features() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <h2 className="font-regular font-excon relative mx-auto mb-6 max-w-4xl text-center text-4xl leading-tight font-black tracking-tighter md:text-5xl lg:text-6xl">
-            Features of Notes Buddy
+            Features of Mero Kakshya
             <Image
               width={50}
               height={50}
               src="/doodles/quiz.svg"
-              alt="Notes Buddy"
+              alt="Mero Kakshya"
               className="absolute -top-16 left-0 size-16 md:-top-20 md:size-28"
             />
           </h2>

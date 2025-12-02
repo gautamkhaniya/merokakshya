@@ -43,7 +43,7 @@ export default async function MainNav() {
               data-umami-event="nav-brand-text-click"
               className="font-excon text-xl font-bold md:text-2xl"
             >
-              NotesBuddy
+              MeroKakshya
             </h3>
           </Link>
           <div className="mt-2 hidden items-center gap-4 md:flex">

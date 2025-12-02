@@ -49,3 +49,4 @@ next-env.d.ts
 # husky logs
 .husky/logs/
 .husky/*.log
+.env*.local

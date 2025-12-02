@@ -610,10 +610,8 @@ export default function AdminNotesImport() {
                       <SelectValue placeholder="Select University" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="medicaps">
-                        Medicaps University
-                      </SelectItem>
-                      <SelectItem value="ips">IPS University</SelectItem>
+                      <SelectItem value="medicaps">IAAS</SelectItem>
+                      <SelectItem value="ips">Loksewa</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -632,8 +630,8 @@ export default function AdminNotesImport() {
                       <SelectValue placeholder="Select Degree" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="btech-cse">B.Tech CSE</SelectItem>
-                      <SelectItem value="btech-it">B.Tech IT</SelectItem>
+                      <SelectItem value="btech-cse">Agriculture</SelectItem>
+                      <SelectItem value="btech-it">Forestry</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

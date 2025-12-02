@@ -263,7 +263,7 @@ export function PremiumUpgradeFlowController({
       key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID!,
       amount: Math.round(priceCalculation.finalAmount * 100),
       currency: "INR",
-      name: "NotesBuddy",
+      name: "MeroKakshya",
       description: `Upgrade to ${selectedTier?.replace("_", " ")}`,
       order_id: orderData.razorpayOrderId,
       prefill: {

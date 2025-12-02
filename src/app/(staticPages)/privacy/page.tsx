@@ -3,7 +3,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy - How We Protect Your Data",
   description:
-    "Learn about how Notes Buddy collects, uses, and protects your personal information. Our commitment to your privacy and data security.",
+    "Learn about how Mero Kakshya collects, uses, and protects your personal information. Our commitment to your privacy and data security.",
   keywords: [
     "privacy policy",
     "data protection",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "personal information",
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/privacy`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/privacy`,
   },
   robots: {
     index: true,
@@ -36,10 +36,10 @@ export default function PrivacyPage() {
       <div className="flex w-full max-w-2xl flex-col gap-8">
         <section className="rounded-md border-2 border-black bg-zinc-100 p-6 shadow-[4px_4px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-900 dark:text-white dark:shadow-[4px_4px_0px_0px_#757373]">
           <h2 className="font-excon mb-2 text-2xl font-bold">
-            Privacy Policy for Notes Buddy
+            Privacy Policy for Mero Kakshya
           </h2>
           <p className="font-satoshi text-base">
-            Welcome to Notes Buddy. If you have any questions or concerns about
+            Welcome to Mero Kakshya. If you have any questions or concerns about
             our policy or our practices regarding your personal information,
             please contact us.
           </p>

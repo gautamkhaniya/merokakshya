@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "delivery times",
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/shipping`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/shipping`,
   },
   robots: {
     index: true,
@@ -37,10 +37,10 @@ export default function ShippingPage() {
       <div className="flex w-full max-w-2xl flex-col gap-8">
         <section className="rounded-md border-2 border-black bg-zinc-100 p-6 shadow-[4px_4px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-900 dark:text-white dark:shadow-[4px_4px_0px_0px_#757373]">
           <h2 className="font-excon mb-2 text-2xl font-bold">
-            Shipping and Delivery Policy for Notes Buddy
+            Shipping and Delivery Policy for Mero Kakshya
           </h2>
           <p className="font-satoshi text-base">
-            At Notes Buddy, we specialize in providing premium educational
+            At Mero Kakshya, we specialize in providing premium educational
             resources tailored for students. Our goal is to deliver high-quality
             notes and resources efficiently and effectively.
           </p>
@@ -97,7 +97,7 @@ export default function ShippingPage() {
           <p className="font-satoshi text-base">
             We provide continuous updates on your order status via email.
             Digital materials can be accessed immediately after purchase through
-            your Notes Buddy account.
+            your Mero Kakshya account.
           </p>
         </section>
         <section className="rounded-md border-2 border-black bg-zinc-100 p-6 shadow-[4px_4px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-900 dark:text-white dark:shadow-[4px_4px_0px_0px_#757373]">

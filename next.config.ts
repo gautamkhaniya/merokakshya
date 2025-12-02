@@ -16,18 +16,18 @@ const nextConfig: NextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
-  async rewrites() {
-    return [
-      {
-        source: "/script.js",
-        destination: process.env.NEXT_PUBLIC_UMAMI_SRC || "",
-      },
-      {
-        source: "/api/send",
-        destination: "https://analytics.notesbuddy.in/api/send",
-      },
-    ];
-  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: "/script.js",
+  //       destination: process.env.NEXT_PUBLIC_UMAMI_SRC || "",
+  //     },
+  //     {
+  //       source: "/api/send",
+  //       destination: "https://analytics.merokakshya.in/api/send",
+  //     },
+  //   ];
+  // },
 };
 
 export default nextConfig;

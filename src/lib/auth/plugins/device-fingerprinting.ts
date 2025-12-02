@@ -65,7 +65,7 @@ export const deviceFingerprintingPlugin = () => {
 
                 const errorUrl = new URL(
                   "/auth/error",
-                  ctx.context.baseURL || "https://notesbuddy.in",
+                  ctx.context.baseURL || "https://merokakshya.in",
                 );
                 errorUrl.searchParams.set(
                   "error",
@@ -155,7 +155,7 @@ export const deviceFingerprintingPlugin = () => {
               const errorPath = isDeviceLimit ? "/auth/error" : "/failed";
               const errorUrl = new URL(
                 errorPath,
-                ctx.context.baseURL || "https://notesbuddy.in",
+                ctx.context.baseURL || "https://merokakshya.in",
               );
               if (isDeviceLimit && session.user?.id) {
                 errorUrl.searchParams.set("error", "DEVICE_LIMIT_EXCEEDED");

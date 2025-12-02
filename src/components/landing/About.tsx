@@ -192,7 +192,7 @@ export default function About() {
                 className="text-primary"
               />
             </span>
-            <span className="font-excon font-black"> with Notes Buddy</span>
+            <span className="font-excon font-black"> with Mero Kakshya</span>
           </motion.h2>
 
           <motion.p

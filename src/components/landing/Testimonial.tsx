@@ -98,49 +98,49 @@ function TestimonialCard({
 
 const testimonials = [
   {
-    name: "Dolly Singh",
-    role: "B. Tech CSE (Medicaps University)",
-    image: "/avatar/1.jpg",
+    name: "Pradeep Sapkota",
+    role: "(IAAS passout)",
+    image: "/avatar/1.jpeg",
     content:
-      "Notes Buddy transformed my study routine. The concise notes and quick one-shots helped me ace my exams with much less stress.",
+      "Mero Kakshya transformed my study routine. The concise notes and quick one-shots helped me ace my exams with much less stress.",
     rating: 5,
   },
   {
-    name: "Samriddhi",
-    role: "Engineering Student",
-    image: "/avatar/2.jpg",
+    name: "Tikaram",
+    role: "IAAS passout Student",
+    image: "/avatar/2.jpeg",
     content:
       "The interactive flashcards are game-changing. I've never retained information this well before. Highly recommend!",
     rating: 5,
   },
   {
-    name: "Priya Sharma",
-    role: "IT (IPS University)",
-    image: "/avatar/3.jpg",
+    name: "Sagar Adhikari",
+    role: "IAAS Passout",
+    image: "/avatar/3.jpeg",
     content:
       "Finally, a platform that understands how students actually study. The topper notes gave me insights I never had access to.",
     rating: 5,
   },
   {
-    name: "Rajat",
-    role: "B. Tech CSE (IPS University)",
+    name: "Bedanta Ghimire",
+    role: "Agriculture (Loksewa)",
     image: "/avatar/4.jpg",
     content:
-      "The practice quizzes helped me identify my weak areas quickly. My grades improved significantly after using Notes Buddy.",
+      "The practice quizzes helped me identify my weak areas quickly. My grades improved significantly after using Mero Kakshya.",
     rating: 5,
   },
   {
-    name: "Aman",
-    role: "B. Tech CSE (Medicaps University)",
-    image: "/avatar/5.jpg",
+    name: "Sulav Bashyal",
+    role: "Passout (IAAS)",
+    image: "/avatar/5.jpeg",
     content:
-      "Clean, organized, and effective. Notes Buddy made studying enjoyable instead of overwhelming. Best investment for my education.",
+      "Clean, organized, and effective. Mero Kakshya made studying enjoyable instead of overwhelming. Best investment for my education.",
     rating: 5,
   },
   {
-    name: "Nikhil",
-    role: "B. Tech IT (Medicaps University)",
-    image: "/avatar/6.jpg",
+    name: "Madan",
+    role: "Passout (IAAS)",
+    image: "/avatar/6.jpeg",
     content:
       "The AI study assistant is incredible. Instant answers to my questions saved me hours of research. This is the future of learning.",
     rating: 5,
@@ -191,7 +191,7 @@ export default function Testimonial() {
             variants={titleVariants}
           >
             Join thousands of students who have transformed their learning
-            experience with Notes Buddy
+            experience with Mero Kakshya
           </motion.p>
         </motion.div>
 

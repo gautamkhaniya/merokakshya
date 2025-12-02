@@ -27,7 +27,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
   MEDICAPS: {
     info: {
       value: "MEDICAPS",
-      label: "Medicaps University",
+      label: "IAAS",
       prismaValue: "MEDICAPS",
       sanityValue: "medicaps",
     },
@@ -35,7 +35,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
       BTECH_CSE: {
         info: {
           value: "BTECH_CSE",
-          label: "B.Tech CSE",
+          label: "Agriculture",
           prismaValue: "BTECH_CSE",
           sanityValue: "btech-cse",
         },
@@ -135,7 +135,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
   IPS: {
     info: {
       value: "IPS",
-      label: "IPS University",
+      label: "Loksewa",
       prismaValue: "IPS",
       sanityValue: "ips",
     },
@@ -143,7 +143,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
       BTECH_IT: {
         info: {
           value: "BTECH_IT",
-          label: "B.Tech IT",
+          label: "Forestry",
           prismaValue: "BTECH_IT",
           sanityValue: "btech-it",
         },

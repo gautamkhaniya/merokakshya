@@ -36,9 +36,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = note.title || "Study Note";
   const description =
     note.syllabus ||
-    `Comprehensive study notes for ${note.subject || "your studies"}. Access detailed content and enhance your learning experience with Notes Buddy.`;
+    `Comprehensive study notes for ${note.subject || "your studies"}. Access detailed content and enhance your learning experience with Mero Kakshya.`;
   const baseUrl =
-    process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in";
+    process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in";
 
   // Filter out null values for keywords and tags
   const keywordsList = [
@@ -68,10 +68,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       url: `${baseUrl}/notes/${slug}`,
-      siteName: "Notes Buddy",
+      siteName: "Mero Kakshya",
       locale: "en_US",
       type: "article",
-      authors: ["Notes Buddy Team"],
+      authors: ["Mero Kakshya Team"],
       section: note.subject || "Education",
       tags: tagsList,
       images: [
@@ -87,8 +87,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      site: "@notesbuddy",
-      creator: "@notesbuddy",
+      site: "@merokakshya",
+      creator: "@merokakshya",
       images: [`${baseUrl}/notes/${slug}/opengraph-image`],
     },
     alternates: {

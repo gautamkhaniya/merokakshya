@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms and Conditions - Service Agreement",
   description:
-    "Read our terms and conditions that govern the use of Notes Buddy platform and services. Understanding your rights and responsibilities as a user.",
+    "Read our terms and conditions that govern the use of Mero Kakshya platform and services. Understanding your rights and responsibilities as a user.",
   keywords: [
     "terms and conditions",
     "service agreement",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "platform rules",
   ],
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/terms`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/terms`,
   },
   robots: {
     index: true,
@@ -37,13 +37,14 @@ export default function TermsPage() {
       <div className="flex w-full max-w-2xl flex-col gap-8">
         <section className="rounded-md border-2 border-black bg-zinc-100 p-6 shadow-[4px_4px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-900 dark:text-white dark:shadow-[4px_4px_0px_0px_#757373]">
           <h2 className="font-excon mb-2 text-2xl font-bold">
-            Welcome to Notes Buddy
+            Welcome to Mero Kakshya
           </h2>
           <p className="font-satoshi text-base">
             These terms and conditions outline the rules and regulations for the
-            use of Notes Buddy’s website and services. By accessing or using our
-            website, you agree to these terms in full. If you do not accept all
-            the terms and conditions, please refrain from using our services.
+            use of Mero Kakshya’s website and services. By accessing or using
+            our website, you agree to these terms in full. If you do not accept
+            all the terms and conditions, please refrain from using our
+            services.
           </p>
         </section>
         <section className="rounded-md border-2 border-black bg-zinc-100 p-6 shadow-[4px_4px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-900 dark:text-white dark:shadow-[4px_4px_0px_0px_#757373]">
@@ -51,7 +52,7 @@ export default function TermsPage() {
           <p className="font-satoshi text-base">
             To access certain features, you may need to create an account. You
             agree to provide accurate and complete information and are
-            responsible for safeguarding your account credentials. Notes Buddy
+            responsible for safeguarding your account credentials. Mero Kakshya
             is not liable for unauthorized account usage.
           </p>
         </section>
@@ -60,8 +61,8 @@ export default function TermsPage() {
             Content Ownership
           </h2>
           <p className="font-satoshi text-base">
-            The notes and resources shared on Notes Buddy are either
-            user-contributed or owned by Notes Buddy. By uploading materials,
+            The notes and resources shared on Mero Kakshya are either
+            user-contributed or owned by Mero Kakshya. By uploading materials,
             you grant us a non-exclusive, royalty-free license to use, display,
             and share your content with other users.
           </p>
@@ -81,7 +82,7 @@ export default function TermsPage() {
             Payments and Subscriptions
           </h2>
           <p className="font-satoshi text-base">
-            Notes Buddy offers free and paid subscription tiers. By subscribing
+            Mero Kakshya offers free and paid subscription tiers. By subscribing
             to a paid plan, you agree to pay all associated fees. Subscription
             charges are non-refundable, except as required by applicable law.
           </p>
@@ -91,7 +92,7 @@ export default function TermsPage() {
             Limitation of Liability
           </h2>
           <p className="font-satoshi text-base">
-            Notes Buddy is not responsible for inaccuracies in user-contributed
+            Mero Kakshya is not responsible for inaccuracies in user-contributed
             content or disruptions in service. Use the platform at your own
             risk.
           </p>

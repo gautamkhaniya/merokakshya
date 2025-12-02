@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     "personalized learning",
   ],
   openGraph: {
-    title: "AI Study Assistant - Personalized Learning Support | Notes Buddy",
+    title: "AI Study Assistant - Personalized Learning Support | Mero Kakshya",
     description:
       "Get instant help with your studies using our AI-powered chat assistant. Ask questions, get explanations, and receive personalized study guidance.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/ai`,
-    siteName: "Notes Buddy",
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/ai`,
+    siteName: "Mero Kakshya",
     locale: "en_US",
     type: "website",
   },
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
     title: "AI Study Assistant - Personalized Learning Support",
     description:
       "Get instant help with your studies using our AI-powered chat assistant.",
-    site: "@notesbuddy",
-    creator: "@notesbuddy",
+    site: "@merokakshya",
+    creator: "@merokakshya",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/ai`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/ai`,
   },
   robots: {
     index: true,

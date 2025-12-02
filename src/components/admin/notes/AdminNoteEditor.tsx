@@ -95,9 +95,9 @@ export default function AdminNoteEditor({ note }: Props) {
   const getUniversityDisplay = (value: string) => {
     switch (value) {
       case "medicaps":
-        return "Medicaps University";
+        return "IAAS";
       case "ips":
-        return "IPS University";
+        return "Loksewa";
       default:
         return value;
     }
@@ -106,9 +106,9 @@ export default function AdminNoteEditor({ note }: Props) {
   const getDegreeDisplay = (value: string) => {
     switch (value) {
       case "btech-cse":
-        return "B.Tech CSE";
+        return "Agriculture";
       case "btech-it":
-        return "B.Tech IT";
+        return "Forestry";
       default:
         return value;
     }
@@ -323,10 +323,8 @@ export default function AdminNoteEditor({ note }: Props) {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="medicaps">
-                      Medicaps University
-                    </SelectItem>
-                    <SelectItem value="ips">IPS University</SelectItem>
+                    <SelectItem value="medicaps">IAAS</SelectItem>
+                    <SelectItem value="ips">Loksewa</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -346,8 +344,8 @@ export default function AdminNoteEditor({ note }: Props) {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="btech-cse">B.Tech CSE</SelectItem>
-                    <SelectItem value="btech-it">B.Tech IT</SelectItem>
+                    <SelectItem value="btech-cse">Agriculture</SelectItem>
+                    <SelectItem value="btech-it">Forestry</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

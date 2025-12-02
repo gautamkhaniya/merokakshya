@@ -27,11 +27,11 @@ export const metadata: Metadata = {
     "academic study",
   ],
   openGraph: {
-    title: "Interactive Flashcards - Master Your Studies | Notes Buddy",
+    title: "Interactive Flashcards - Master Your Studies | Mero Kakshya",
     description:
       "Enhance your learning with interactive flashcards designed for effective memorization and retention.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/flashcards`,
-    siteName: "Notes Buddy",
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/flashcards`,
+    siteName: "Mero Kakshya",
     locale: "en_US",
     type: "website",
   },
@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     title: "Interactive Flashcards - Master Your Studies",
     description:
       "Enhance your learning with interactive flashcards designed for effective memorization and retention.",
-    site: "@notesbuddy",
-    creator: "@notesbuddy",
+    site: "@merokakshya",
+    creator: "@merokakshya",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/flashcards`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/flashcards`,
   },
   robots: {
     index: true,

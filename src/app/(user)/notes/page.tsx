@@ -28,11 +28,11 @@ export const metadata: Metadata = {
     "education",
   ],
   openGraph: {
-    title: "Study Notes - Comprehensive Academic Resources | Notes Buddy",
+    title: "Study Notes - Comprehensive Academic Resources | Mero Kakshya",
     description:
       "Browse through thousands of comprehensive study notes across different universities, degrees, and subjects. Find the perfect notes to boost your academic performance.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/notes`,
-    siteName: "Notes Buddy",
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/notes`,
+    siteName: "Mero Kakshya",
     locale: "en_US",
     type: "website",
   },
@@ -41,11 +41,11 @@ export const metadata: Metadata = {
     title: "Study Notes - Comprehensive Academic Resources",
     description:
       "Browse through thousands of comprehensive study notes across different universities, degrees, and subjects.",
-    site: "@notesbuddy",
-    creator: "@notesbuddy",
+    site: "@merokakshya",
+    creator: "@merokakshya",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.notesbuddy.in"}/notes`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/notes`,
   },
   robots: {
     index: true,
@@ -143,7 +143,7 @@ export default async function NotesPage({
         <div className="relative mx-auto mt-6 flex max-w-6xl flex-col items-center justify-center gap-4 space-y-6 px-4 py-5 sm:mt-8 sm:space-y-8 sm:px-6 lg:mt-10 lg:space-y-10 lg:px-8">
           <div className="flex flex-col items-center justify-center gap-3 text-center sm:gap-4">
             <h1 className="text-3xl font-bold sm:text-4xl lg:text-5xl">
-              Welcome to Notes Buddy!
+              Welcome to Mero Kakshya!
             </h1>
             <p className="text-muted-foreground max-w-2xl text-base sm:text-lg">
               Find your notes by searching or filtering.

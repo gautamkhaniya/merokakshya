@@ -19,7 +19,7 @@ import { Link } from "next-view-transitions";
 import { XCircleIcon } from "@/components/icons/XCIrcleIcon";
 
 export const metadata: Metadata = {
-  title: "Upgrade Plan | NotesBuddy",
+  title: "Upgrade Plan | MeroKakshya",
   description: "Upgrade your premium plan to get more features and benefits",
 };
 

@@ -2,21 +2,21 @@ export const UNIVERSITY_OPTIONS = {
   MEDICAPS: {
     prismaValue: "MEDICAPS",
     sanityValue: "medicaps",
-    title: "Medicaps University",
+    title: "IAAS",
   },
-  IPS: { prismaValue: "IPS", sanityValue: "ips", title: "IPS University" },
+  IPS: { prismaValue: "IPS", sanityValue: "ips", title: "Loksewa" },
 } as const;
 
 export const DEGREE_OPTIONS = {
   BTECH_CSE: {
     prismaValue: "BTECH_CSE",
     sanityValue: "btech-cse",
-    title: "B.Tech CSE",
+    title: "Agriculture",
   },
   BTECH_IT: {
     prismaValue: "BTECH_IT",
     sanityValue: "btech-it",
-    title: "B.Tech IT",
+    title: "Forestry",
   },
 } as const;
 

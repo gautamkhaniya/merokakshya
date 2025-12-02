@@ -25,8 +25,8 @@ export const note = defineType({
       type: "string",
       options: {
         list: [
-          { title: "Medicaps University", value: "medicaps" },
-          { title: "IPS University", value: "ips" },
+          { title: "IAAS", value: "medicaps" },
+          { title: "Loksewa", value: "ips" },
         ],
       },
     }),
@@ -35,8 +35,8 @@ export const note = defineType({
       type: "string",
       options: {
         list: [
-          { title: "B.Tech CSE", value: "btech-cse" },
-          { title: "B.Tech IT", value: "btech-it" },
+          { title: "Agriculture", value: "btech-cse" },
+          { title: "Forestry", value: "btech-it" },
         ],
       },
     }),

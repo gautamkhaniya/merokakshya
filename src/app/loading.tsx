@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import React from "react";
 
 export default function GlobalLoader() {
-  const text = "NotesBuddy";
+  const text = "MeroKakshya";
   return (
     <div className="flex min-h-screen min-w-full items-center justify-center">
       <div className="font-sans text-2xl font-bold [--shadow-color:var(--color-neutral-500)] dark:[--shadow-color:var(--color-neutral-100)]">

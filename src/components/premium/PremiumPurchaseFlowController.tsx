@@ -201,7 +201,7 @@ export function PremiumPurchaseFlowController({
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
         amount: orderData.data.amount,
         currency: orderData.data.currency,
-        name: "Notes Buddy",
+        name: "Mero Kakshya",
         description: `${priceCalculation.tier.replace("_", " ")} - 6 Months`,
         order_id: orderData.data.orderId,
         prefill: {

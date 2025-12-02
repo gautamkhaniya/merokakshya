@@ -18,15 +18,15 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     name: "John Doe",
-    image: "/avatar/1.jpg",
+    image: "/avatar/1.jpeg",
   },
   {
     name: "John Doe",
-    image: "/avatar/2.jpg",
+    image: "/avatar/2.jpeg",
   },
   {
     name: "John Doe",
-    image: "/avatar/3.jpg",
+    image: "/avatar/3.jpeg",
   },
   {
     name: "John Doe",
@@ -34,11 +34,11 @@ const testimonials: Testimonial[] = [
   },
   {
     name: "John Doe",
-    image: "/avatar/5.jpg",
+    image: "/avatar/5.jpeg",
   },
   {
     name: "John Doe",
-    image: "/avatar/6.jpg",
+    image: "/avatar/6.jpeg",
   },
   {
     name: "John Doe",

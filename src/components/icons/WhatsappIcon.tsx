@@ -8,7 +8,7 @@ export default function WhatsappIcon() {
       data-umami-event="nav-whatsapp-community-click"
       className="mt-1 hidden hover:cursor-pointer md:block"
       target="_blank"
-      href="https://chat.whatsapp.com/EcretA1N7eCFQeHecm1uWO"
+      href="https://chat.whatsapp.com/IoFOPEqv8QYFXrp6zvw8Ek"
     >
       <Tooltip>
         <TooltipTrigger>

@@ -530,7 +530,7 @@ export default function AdminUserTable() {
                     </TableCell>
                     <TableCell className="p-3">
                       <Image
-                        src={user.image || "/avatar/1.jpg"}
+                        src={user.image || "/avatar/1.jpeg"}
                         alt={user.name}
                         width={40}
                         height={40}

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import EditQuizForm from "@/components/admin/quiz/EditQuizForm";
 
 export const metadata: Metadata = {
-  title: "Edit Quiz - Notes Buddy Admin",
+  title: "Edit Quiz - Mero Kakshya Admin",
   description: "Edit an existing quiz for your students",
 };
 

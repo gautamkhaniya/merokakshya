@@ -179,7 +179,7 @@ export default function FAQ() {
             className="text-secondary font-satoshi mx-auto max-w-3xl text-center text-lg leading-relaxed tracking-tight md:text-xl"
             variants={titleVariants}
           >
-            Everything you need to know about Notes Buddy
+            Everything you need to know about Mero Kakshya
           </motion.p>
         </motion.div>
 
