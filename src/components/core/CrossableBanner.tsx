@@ -64,7 +64,7 @@ export default function CrossableBanner() {
               width={20}
               height={20}
             />
-            Check out EvilCharts!
+            Check out Rajan!
           </h3>
           <p className="mt-3 text-sm leading-relaxed opacity-90">
             Beautiful & Animated Charts for your next project. Interactive
@@ -72,20 +72,20 @@ export default function CrossableBanner() {
           </p>
           <div className="mt-4 flex gap-2.5">
             <Link
-              href="https://evilcharts.com?ref=merokakshya"
+              href="https://facebook.com/rajanorgautam"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border-2 border-black px-4 py-2 text-xs font-bold shadow-[3px_3px_0px_0px_#000] transition-all duration-200 hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#000] focus:ring-2 focus:ring-black focus:ring-offset-2 focus:outline-none dark:border-white/20 dark:shadow-[3px_3px_0px_0px_#fff] dark:hover:shadow-[2px_2px_0px_0px_#fff] dark:focus:ring-white"
             >
-              Check it out!
+              Check him out!
             </Link>
             <Link
-              href="https://github.com/legions-developer/evilcharts"
+              href="https://www.instagram.com/rajan_khaniya_/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border-2 border-black bg-white px-4 py-2 text-xs font-bold shadow-[3px_3px_0px_0px_#000] transition-all duration-200 hover:translate-x-0.5 hover:translate-y-0.5 hover:bg-black hover:text-white hover:shadow-[2px_2px_0px_0px_#000] focus:ring-2 focus:ring-black focus:ring-offset-2 focus:outline-none dark:border-white/20 dark:bg-black dark:text-white dark:shadow-[3px_3px_0px_0px_#fff] dark:hover:bg-white dark:hover:text-black dark:hover:shadow-[2px_2px_0px_0px_#fff] dark:focus:ring-white"
             >
-              Star Github
+              Follow on insta
             </Link>
           </div>
         </div>
