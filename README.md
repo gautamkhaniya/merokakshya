@@ -18,12 +18,6 @@ Welcome to Mero Kakshya, a web platform designed for students to read and share 
 - Ai Chat with custom agents based on the subject
 - Admin panel for managing the platform and more!
 
-### Contributors
-
-<a href="https://github.com/ramxcodes/MeroKakshya/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ramxcodes/MeroKakshya" />
-</a>
-
 ### Tech Stack
 
 **Frontend:**
@@ -78,13 +72,13 @@ Welcome to Mero Kakshya, a web platform designed for students to read and share 
 
     # For Windows
 
-    ren MeroKakshya notes-buddy
+    ren MeroKakshya mero-kakshya
 
     # For Mac/Linux
 
-    mv MeroKakshya notes-buddy
+    mv MeroKakshya mero-kakshya
 
-    cd notes-buddy
+    cd mero-kakshya
    ```
 
 2. **Install dependencies**

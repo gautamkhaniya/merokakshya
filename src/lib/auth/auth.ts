@@ -15,7 +15,7 @@ export const auth = betterAuth({
     provider: "postgresql",
   }),
   advanced: {
-    cookiePrefix: "notes-buddy",
+    cookiePrefix: "mero-kakshya",
   },
   session: {
     cookieCache: {

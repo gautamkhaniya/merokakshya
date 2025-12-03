@@ -164,7 +164,7 @@ export default function RootLayout({
             className={`${poppins.variable} ${lexend.variable} ${montserrat.variable} ${roboto.variable} ${inter.variable}`}
           >
             <DeviceFingerprint />
-            <ThemeProvider defaultTheme="light" storageKey="notes-buddy-theme">
+            <ThemeProvider defaultTheme="light" storageKey="mero-kakshya-theme">
               <MainNav />
               {children}
               <CrossableBanner />

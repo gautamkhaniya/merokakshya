@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "notes-buddy-sanity",
+      "name": "mero-kakshya-sanity",
       "dependencies": {
         "@hookform/resolvers": "^5.1.1",
         "@next/third-parties": "^15.5.0",
