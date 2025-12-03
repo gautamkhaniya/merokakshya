@@ -161,7 +161,7 @@ export default function RootLayout({
             <ThemeInitScript />
           </Head>
           <body
-            className={`${poppins.variable} ${lexend.variable} ${montserrat.variable} ${roboto.variable} ${inter.variable}`}
+            className={`${poppins.variable} ${lexend.variable} ${montserrat.variable} ${roboto.variable} `}
           >
             <DeviceFingerprint />
             <ThemeProvider defaultTheme="light" storageKey="mero-kakshya-theme">
