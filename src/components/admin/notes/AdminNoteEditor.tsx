@@ -97,7 +97,7 @@ export default function AdminNoteEditor({ note }: Props) {
       case "medicaps":
         return "IAAS";
       case "ips":
-        return "Loksewa";
+        return "Other institutions";
       default:
         return value;
     }
@@ -108,7 +108,7 @@ export default function AdminNoteEditor({ note }: Props) {
       case "btech-cse":
         return "Agriculture";
       case "btech-it":
-        return "Forestry";
+        return "Other Degree";
       default:
         return value;
     }
@@ -324,7 +324,7 @@ export default function AdminNoteEditor({ note }: Props) {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="medicaps">IAAS</SelectItem>
-                    <SelectItem value="ips">Loksewa</SelectItem>
+                    <SelectItem value="ips">Other institutions</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -345,7 +345,7 @@ export default function AdminNoteEditor({ note }: Props) {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="btech-cse">Agriculture</SelectItem>
-                    <SelectItem value="btech-it">Forestry</SelectItem>
+                    <SelectItem value="btech-it">Other Degree</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

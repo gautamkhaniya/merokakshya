@@ -42,7 +42,7 @@ export default function AdminNotesTable({
       case "medicaps":
         return "IAAS";
       case "ips":
-        return "Loksewa";
+        return "Other institutions";
       default:
         return value;
     }
@@ -53,7 +53,7 @@ export default function AdminNotesTable({
       case "btech-cse":
         return "Agriculture";
       case "btech-it":
-        return "Forestry";
+        return "Other Degree";
       default:
         return value;
     }

@@ -611,7 +611,7 @@ export default function AdminNotesImport() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="medicaps">IAAS</SelectItem>
-                      <SelectItem value="ips">Loksewa</SelectItem>
+                      <SelectItem value="ips">Other institutions</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -631,7 +631,7 @@ export default function AdminNotesImport() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="btech-cse">Agriculture</SelectItem>
-                      <SelectItem value="btech-it">Forestry</SelectItem>
+                      <SelectItem value="btech-it">Other Degree</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>

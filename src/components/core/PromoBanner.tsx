@@ -31,9 +31,7 @@ export default function PromoBanner() {
             width={20}
             height={20}
           />
-          <b className="ml-1 font-mono">
-            Evil Charts - Beautiful & Animated Charts
-          </b>
+          <b className="ml-1 font-mono">Check me out!</b>
         </p>
       </Link>
 

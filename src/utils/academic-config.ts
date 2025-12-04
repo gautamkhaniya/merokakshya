@@ -135,7 +135,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
   IPS: {
     info: {
       value: "IPS",
-      label: "Loksewa",
+      label: "Other institutions",
       prismaValue: "IPS",
       sanityValue: "ips",
     },
@@ -143,7 +143,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
       BTECH_IT: {
         info: {
           value: "BTECH_IT",
-          label: "Forestry",
+          label: "Other Degree",
           prismaValue: "BTECH_IT",
           sanityValue: "btech-it",
         },

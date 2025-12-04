@@ -40,10 +40,10 @@ const testimonials: Testimonial[] = [
     name: "John Doe",
     image: "/avatar/6.jpeg",
   },
-  {
-    name: "John Doe",
-    image: "/avatar/7.jpg",
-  },
+  // {
+  //   name: "John Doe",
+  //   image: "/avatar/7.jpg",
+  // },
 ];
 
 export default function HeroSection() {

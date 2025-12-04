@@ -163,7 +163,9 @@ export default function AdminNotesFilterAndSearch({
                   <SelectItem value="all">All Universities</SelectItem>
                   {filterOptions?.universities.map((university) => (
                     <SelectItem key={university} value={university}>
-                      {university === "IAAS" ? "Loksewa" : university}
+                      {university === "IAAS"
+                        ? "Other institutions"
+                        : university}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -183,7 +185,7 @@ export default function AdminNotesFilterAndSearch({
                   <SelectItem value="all">All Degrees</SelectItem>
                   {filterOptions?.degrees.map((degree) => (
                     <SelectItem key={degree} value={degree}>
-                      {degree === "Agriculture" ? "Forestry" : degree}
+                      {degree === "Agriculture" ? "Other Degree" : degree}
                     </SelectItem>
                   ))}
                 </SelectContent>

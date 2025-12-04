@@ -26,7 +26,7 @@ export const note = defineType({
       options: {
         list: [
           { title: "IAAS", value: "medicaps" },
-          { title: "Loksewa", value: "ips" },
+          { title: "Other institutions", value: "ips" },
         ],
       },
     }),
@@ -36,7 +36,7 @@ export const note = defineType({
       options: {
         list: [
           { title: "Agriculture", value: "btech-cse" },
-          { title: "Forestry", value: "btech-it" },
+          { title: "Other Degree", value: "btech-it" },
         ],
       },
     }),

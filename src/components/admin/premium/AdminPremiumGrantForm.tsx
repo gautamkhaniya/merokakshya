@@ -872,7 +872,7 @@ export function AdminPremiumGrantForm({
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="BTECH_CSE">Agriculture</SelectItem>
-                        <SelectItem value="BTECH_IT">Forestry</SelectItem>
+                        <SelectItem value="BTECH_IT">Other Degree</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -1464,7 +1464,7 @@ export function AdminPremiumGrantForm({
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="BTECH_CSE">Agriculture</SelectItem>
-                        <SelectItem value="BTECH_IT">Forestry</SelectItem>
+                        <SelectItem value="BTECH_IT">Other Degree</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>

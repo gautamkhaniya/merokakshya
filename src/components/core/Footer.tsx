@@ -57,7 +57,7 @@ export default function Footer() {
       <div className="group flex items-center gap-2">
         <Image
           className="hidden size-12 rounded-2xl border border-gray-400 group-hover:border-2 md:block"
-          src="/rajan.jpg"
+          src="/rajan.png"
           width={48}
           height={48}
           alt="Rajan"
