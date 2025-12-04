@@ -2,8 +2,6 @@
 
 Welcome to Mero Kakshya, a web platform designed for students to read and share college notes easily. Built with a modern tech stack, it ensures an easy-to-use, visually appealing, and responsive experience.
 
-![HeroSectionImage](https://i.postimg.cc/8PvmSp4y/localhost-3000.png)
-
 ### Features :
 
 - Sanity CMS with Caching
