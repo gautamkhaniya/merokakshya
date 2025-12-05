@@ -51,12 +51,12 @@ function PricingCard({
       </div>
       {/* Price */}
       <div className="mb-2 flex items-end gap-2">
-        <span className="font-excon text-4xl font-black">₹{discounted}/-</span>
+        <span className="font-excon text-4xl font-black">रु{discounted}/-</span>
       </div>
       <div className="text-muted-foreground mb-2 text-sm">
         Original Price:{" "}
         <span className="line-through">
-          ₹{originalPrice.find((p) => p.tier === tier)?.price}/-
+          रु{originalPrice.find((p) => p.tier === tier)?.price}/-
         </span>
       </div>
       {/* Title & Desc */}

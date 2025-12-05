@@ -73,7 +73,7 @@ export function AdminCouponUsageView({
     if (couponData.discountType === DiscountType.PERCENTAGE) {
       return `${couponData.value}%`;
     }
-    return `₹${couponData.value}`;
+    return `रु${couponData.value}`;
   };
 
   const getTierBadgeColor = (tier: PremiumTier) => {
@@ -214,7 +214,7 @@ export function AdminCouponUsageView({
             <TrendingUpIcon className="h-6 w-6 text-orange-600" />
             <div>
               <div className="font-excon text-xl font-black text-orange-600">
-                ₹{couponData.usageStats.totalDiscountGiven.toLocaleString()}
+                रु{couponData.usageStats.totalDiscountGiven.toLocaleString()}
               </div>
               <div className="font-satoshi text-xs font-bold text-orange-600/70">
                 Total Saved
@@ -254,7 +254,7 @@ export function AdminCouponUsageView({
                 <div className="flex items-center gap-2">
                   <TargetIcon className="h-4 w-4 text-black dark:text-white" />
                   <span className="font-satoshi text-sm font-bold text-black dark:text-white">
-                    Max Discount: ₹{couponData.maxDiscount}
+                    Max Discount: रु{couponData.maxDiscount}
                   </span>
                 </div>
               )}
@@ -262,7 +262,7 @@ export function AdminCouponUsageView({
                 <div className="flex items-center gap-2">
                   <DollarSignIcon className="h-4 w-4 text-black dark:text-white" />
                   <span className="font-satoshi text-sm font-bold text-black dark:text-white">
-                    Min Order: ₹{couponData.minOrderAmount}
+                    Min Order: रु{couponData.minOrderAmount}
                   </span>
                 </div>
               )}
@@ -343,7 +343,7 @@ export function AdminCouponUsageView({
                     </TableCell>
                     <TableCell>
                       <div className="font-excon text-lg font-black text-green-600">
-                        ₹{usage.discountAmount}
+                        रु{usage.discountAmount}
                       </div>
                     </TableCell>
                     <TableCell>

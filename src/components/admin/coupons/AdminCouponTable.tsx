@@ -93,11 +93,11 @@ export default function AdminCouponTable({
                     <div className="font-excon text-lg font-black text-black dark:text-white">
                       {coupon.discountType === DiscountType.PERCENTAGE
                         ? `${coupon.value}%`
-                        : `₹${coupon.value}`}
+                        : `रु${coupon.value}`}
                     </div>
                     {coupon.maxDiscount && (
                       <div className="font-satoshi text-xs text-black/70 dark:text-white/70">
-                        Max: ₹{coupon.maxDiscount}
+                        Max: रु{coupon.maxDiscount}
                       </div>
                     )}
                   </div>

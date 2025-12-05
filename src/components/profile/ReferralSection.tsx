@@ -170,7 +170,7 @@ export function ReferralSection({
                     Available Balance
                   </p>
                   <p className="font-excon text-2xl font-black text-black dark:text-white">
-                    ₹{referralStatus.totalEarnings}
+                    रु{referralStatus.totalEarnings}
                   </p>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export function ReferralSection({
               <div className="flex items-start gap-2">
                 <div className="mt-1 h-2 w-2 rounded-full bg-black dark:bg-white"></div>
                 <p className="font-satoshi font-bold text-black dark:text-white">
-                  Both you and your friend get ₹10 discount when they make a
+                  Both you and your friend get रु10 discount when they make a
                   purchase
                 </p>
               </div>
@@ -272,7 +272,7 @@ export function ReferralSection({
               <div className="rounded-md border-2 border-black bg-white p-3 shadow-[2px_2px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-800 dark:shadow-[2px_2px_0px_0px_#757373]">
                 <p className="font-satoshi text-sm font-bold text-black dark:text-white">
                   💡 Share this code with friends when they&apos;re purchasing
-                  premium plans. Both of you will get ₹10 off!
+                  premium plans. Both of you will get रु10 off!
                 </p>
               </div>
             </div>
@@ -356,7 +356,7 @@ export function ReferralSection({
               {validationResult.discountAmount && (
                 <div className="mt-2">
                   <Badge className="border-2 border-black bg-white font-bold text-black shadow-[2px_2px_0px_0px_#000] dark:border-white/20 dark:bg-zinc-800 dark:text-white dark:shadow-[2px_2px_0px_0px_#757373]">
-                    ₹{validationResult.discountAmount} Discount
+                    रु{validationResult.discountAmount} Discount
                   </Badge>
                 </div>
               )}
@@ -386,13 +386,13 @@ export function ReferralSection({
                         {referral.refereeName} • {referral.refereeEmail}
                       </p>
                       <p className="font-satoshi text-sm font-bold text-gray-600 dark:text-gray-400">
-                        {referral.purchaseTier} • ₹{referral.purchaseAmount} •{" "}
+                        {referral.purchaseTier} • रु{referral.purchaseAmount} •{" "}
                         {new Date(referral.createdAt).toLocaleDateString()}
                       </p>
                     </div>
                     <div className="text-right">
                       <p className="font-excon font-black text-black dark:text-white">
-                        ₹{referral.rewardAmount}
+                        रु{referral.rewardAmount}
                       </p>
                       <Badge
                         variant={referral.isProcessed ? "default" : "secondary"}

@@ -201,7 +201,7 @@ class TelegramBot {
       messageText += `• Phone: ${data.phone}\n`;
     }
     messageText += `\n<b>Payment Details:</b>\n`;
-    messageText += `• Amount: ₹${data.paymentAmount}\n`;
+    messageText += `• Amount: रु${data.paymentAmount}\n`;
     messageText += `• Tier: ${data.tier}\n`;
     if (data.paymentId) {
       messageText += `• Payment ID: ${data.paymentId}\n`;

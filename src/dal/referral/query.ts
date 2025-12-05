@@ -144,7 +144,7 @@ export const validateReferralCode = unstable_cache(
     return {
       isValid: true,
       canUse: true,
-      message: "Referral code is valid! You'll get ₹10 discount.",
+      message: "Referral code is valid! You'll get रु10 discount.",
       discountAmount: REFERRAL_CONFIG.REWARD_AMOUNT,
       referrerInfo: {
         name: referrer.name || "Unknown",

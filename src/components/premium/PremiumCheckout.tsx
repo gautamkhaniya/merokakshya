@@ -59,8 +59,8 @@ export function PremiumCheckout({
               <CreditCardIcon className="h-5 w-5" />
               {/* <span className="font-excon">
                 {isUpgrade
-                  ? `Pay ₹${priceCalculation?.finalAmount || 0} & Upgrade Now`
-                  : `Pay ₹${priceCalculation?.finalAmount || 0} & Get Premium`}
+                  ? `Pay रु${priceCalculation?.finalAmount || 0} & Upgrade Now`
+                  : `Pay रु${priceCalculation?.finalAmount || 0} & Get Premium`}
               </span> */}
               <span className="font-excon">
                 {isUpgrade ? `Under Maintenance` : `Under Maintenance`}

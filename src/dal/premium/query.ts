@@ -176,7 +176,7 @@ export async function calculatePurchasePrice(
       // Only apply referral discount if user hasn't used any referral code before
       if (!existingUsage) {
         // Use fixed referral discount amount from config
-        const referralDiscount = Math.min(10, originalAmount - totalDiscount); // ₹10 fixed discount
+        const referralDiscount = Math.min(10, originalAmount - totalDiscount); // रु10 fixed discount
 
         totalDiscount += referralDiscount;
         discounts.push({
@@ -456,11 +456,11 @@ async function processReferralReward(
         data: {
           name: "Default Referral Program",
           description:
-            "Get ₹10 discount for both referrer and referee on premium purchases",
+            "Get रु10 discount for both referrer and referee on premium purchases",
           referrerDiscountType: "FIXED_AMOUNT",
-          referrerDiscountValue: 10, // ₹10
+          referrerDiscountValue: 10, // रु10
           refereeDiscountType: "FIXED_AMOUNT",
-          refereeDiscountValue: 10, // ₹10
+          refereeDiscountValue: 10, // रु10
           isActive: true,
           validFrom: new Date(),
           validUntil: null, // No expiry

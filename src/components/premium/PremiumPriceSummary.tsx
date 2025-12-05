@@ -38,7 +38,7 @@ export function PremiumPriceSummary({
                     Original Price:
                   </span>
                   <span className="font-excon font-black text-black dark:text-white">
-                    ₹{priceCalculation.originalAmount}
+                    रु{priceCalculation.originalAmount}
                   </span>
                 </div>
 
@@ -48,7 +48,7 @@ export function PremiumPriceSummary({
                       {discount.description}:
                     </span>
                     <span className="font-excon font-black text-black dark:text-white">
-                      -₹{discount.amount}
+                      -रु{discount.amount}
                     </span>
                   </div>
                 ))}
@@ -60,7 +60,7 @@ export function PremiumPriceSummary({
                     Total:
                   </span>
                   <span className="font-excon font-black text-black dark:text-white">
-                    ₹{priceCalculation.finalAmount}
+                    रु{priceCalculation.finalAmount}
                   </span>
                 </div>
 
@@ -70,7 +70,7 @@ export function PremiumPriceSummary({
                     animate={{ opacity: 1, y: 0 }}
                     className="font-satoshi text-center font-bold text-black dark:text-white"
                   >
-                    🎉 You save ₹{priceCalculation.totalDiscount}!
+                    🎉 You save रु{priceCalculation.totalDiscount}!
                   </motion.p>
                 )}
               </div>

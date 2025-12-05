@@ -165,7 +165,7 @@ export function PremiumDiscountCode({
                   />
                 )}
                 <span className="font-satoshi text-sm font-bold text-black dark:text-white">
-                  ₹{appliedDiscount.amount} discount applied
+                  रु{appliedDiscount.amount} discount applied
                 </span>
               </div>
 

@@ -161,7 +161,7 @@ export function PremiumUpgrade({
                           </span>
                         </div>
                         <Badge className="ml-2 border-2 border-green-500 bg-green-50 font-bold text-green-800 shadow-[1px_1px_0px_0px_#22c55e] dark:border-green-400 dark:bg-green-900/20 dark:text-green-300 dark:shadow-[1px_1px_0px_0px_#4ade80]">
-                          ₹{upgradePrice}
+                          रु{upgradePrice}
                         </Badge>
                       </div>
                     </SelectItem>
@@ -196,7 +196,7 @@ export function PremiumUpgrade({
                             {selectedConfig.title} (Full Price)
                           </span>
                           <span className="font-satoshi font-black text-green-800 line-through dark:text-green-300">
-                            ₹{originalPrice}
+                            रु{originalPrice}
                           </span>
                         </div>
                         <div className="flex justify-between">
@@ -204,7 +204,7 @@ export function PremiumUpgrade({
                             Credit from current plan
                           </span>
                           <span className="font-satoshi font-black text-green-800 dark:text-green-300">
-                            -₹{creditApplied}
+                            -रु{creditApplied}
                           </span>
                         </div>
                         <div className="border-t border-green-600 pt-2">
@@ -213,7 +213,7 @@ export function PremiumUpgrade({
                               Upgrade Price
                             </span>
                             <span className="font-satoshi font-black text-green-800 dark:text-green-300">
-                              ₹{upgradePrice}
+                              रु{upgradePrice}
                             </span>
                           </div>
                         </div>

@@ -351,7 +351,7 @@ export async function validateCouponForPurchase(
   if (coupon.minOrderAmount && orderAmount < coupon.minOrderAmount.toNumber()) {
     return {
       valid: false,
-      message: `Minimum order amount of ₹${coupon.minOrderAmount.toNumber()} required`,
+      message: `Minimum order amount of रु${coupon.minOrderAmount.toNumber()} required`,
     };
   }
 

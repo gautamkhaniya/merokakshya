@@ -10,7 +10,7 @@ interface StatCardProps {
 function StatCard({ title, value, isCurrency = false }: StatCardProps) {
   const formatValue = (val: number) => {
     if (isCurrency) {
-      return `₹${val.toLocaleString("en-IN")}`;
+      return `रु${val.toLocaleString("en-IN")}`;
     }
     return val.toLocaleString();
   };

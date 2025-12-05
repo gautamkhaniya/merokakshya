@@ -244,7 +244,7 @@ export function AdminEditCouponModal({
                 Discount Value *
                 {formData.discountType === DiscountType.PERCENTAGE
                   ? " (%)"
-                  : " (₹)"}
+                  : " (रु)"}
               </Label>
               <Input
                 type="number"
@@ -275,7 +275,7 @@ export function AdminEditCouponModal({
             {formData.discountType === DiscountType.PERCENTAGE && (
               <div className="space-y-2">
                 <Label className="font-satoshi font-bold text-black dark:text-white">
-                  Max Discount (₹)
+                  Max Discount (रु)
                 </Label>
                 <Input
                   type="number"
@@ -298,7 +298,7 @@ export function AdminEditCouponModal({
             {/* Min Order Amount */}
             <div className="space-y-2">
               <Label className="font-satoshi font-bold text-black dark:text-white">
-                Minimum Order Amount (₹)
+                Minimum Order Amount (रु)
               </Label>
               <Input
                 type="number"

@@ -1106,7 +1106,7 @@ export function AdminPremiumGrantForm({
                           <div className="grid grid-cols-2 gap-4 text-sm md:grid-cols-4">
                             <div>
                               <span className="font-semibold">Amount:</span>
-                              <p>₹{purchase.finalAmount}</p>
+                              <p>रु{purchase.finalAmount}</p>
                             </div>
                             <div>
                               <span className="font-semibold">Status:</span>

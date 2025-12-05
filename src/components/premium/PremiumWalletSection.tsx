@@ -48,7 +48,7 @@ export function PremiumWalletSection({
               <div className="flex items-center gap-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black dark:bg-white">
                   <span className="font-excon text-sm font-black text-white dark:text-black">
-                    ₹
+                    रु
                   </span>
                 </div>
                 <div>
@@ -56,7 +56,7 @@ export function PremiumWalletSection({
                     Available Balance
                   </p>
                   <p className="font-excon text-lg font-black text-black dark:text-white">
-                    ₹{walletBalance}
+                    रु{walletBalance}
                   </p>
                   {walletBalance <= 0 && (
                     <p className="font-satoshi text-xs text-gray-500 dark:text-gray-400">
