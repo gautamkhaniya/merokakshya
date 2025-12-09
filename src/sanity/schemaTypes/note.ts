@@ -78,7 +78,7 @@ export const note = defineType({
       options: {
         list: [
           { title: "Notes", value: "NOTES" },
-          { title: "MST", value: "MST" },
+          { title: "SYLLABUS", value: "SYLLABUS" },
           { title: "PYQ", value: "PYQ" },
           { title: "One-Shot", value: "ONE-SHOT" },
           { title: "Video Material", value: "VIDEO-MATERIAL" },

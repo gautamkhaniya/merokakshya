@@ -258,7 +258,7 @@ export default function NextContent({
           </Card>
         )}
 
-        {/* Other Content (MST, PYQ, etc.) */}
+        {/* Other Content (SYLLABUS, PYQ, etc.) */}
         {filteredOtherContent.length > 0 && (
           <Card className="rounded-md border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] dark:border-white/20 dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">
             <CardHeader className="border-b-2 border-black dark:border-white/20">
