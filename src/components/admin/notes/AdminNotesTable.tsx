@@ -59,20 +59,12 @@ export default function AdminNotesTable({
     }
   };
 
-  // const getYearDisplay = (value: string) => {
-  //   return value.replace("-", " ");
-  // };
-
-  // const getSemesterDisplay = (value: string) => {
-  //   return value.replace("-", " ");
-  // };
-
-  const getYearDisplay = (value?: string | null) => {
-    return (value ?? "").replace("-", " ");
+  const getYearDisplay = (value: string) => {
+    return value.replace("-", " ");
   };
 
-  const getSemesterDisplay = (value?: string | null) => {
-    return (value ?? "").replace("-", " ");
+  const getSemesterDisplay = (value: string) => {
+    return value.replace("-", " ");
   };
 
   const getTierColor = (tier?: string) => {
@@ -160,8 +152,7 @@ export default function AdminNotesTable({
                         <Badge
                           className={`rounded-md ${getTierColor(note.tier)}`}
                         >
-                          {/* {note.tier.replace("TIER_", "Tier ")} */}
-                          {note.tier ? note.tier.replace("TIER_", "Tier ") : ""}
+                          {note.tier.replace("TIER_", "Tier ")}
                         </Badge>
                       )}
                     </div>
