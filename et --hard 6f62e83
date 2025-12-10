@@ -1,0 +1,139 @@
+[33m0928fc3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m ui change
+[33mbd36b72[m ui change
+[33m6f62e83[m update ui
+[33mc270f32[m Initial commit
+[33m36f6bcb[m Update premium and coupon components
+[33m33a9228[m Edited code after cloning new repo
+[33mb6b80ca[m Update local changes
+[33mf3a90a0[m fix: replaced next/head with head for vercel build
+[33m2d6851a[m fix: replaced next/head with head for vercel build
+[33mc46ec4b[m fix: replaced next/head with head for vercel build
+[33m3aaded2[m Commit bypassing pre-commit TS check
+[33m32aa4cb[m Initial commit
+[33m3504208[m feat: better device removal
+[33m67bac63[m fix: auto blocking on login
+[33maedef5e[m Flag: better remove system
+[33m1f20341[m Flag: device removal from admin panel
+[33m214448e[m feat: Add /studio to be only accessible by admins.
+[33mbc65c51[m removed the temp code
+[33mb3a5898[m update : device removal system, bulk import fix & better bulk import
+[33m6f95867[m fixed logging and slight improvement, & frontend fixes
+[33m913e730[m Fixed logging and errors of device fingerprinting
+[33m3829561[m Merge pull request #18 from deveshru2712/master
+[33m714c8fb[m update: added more information to telegram error logger
+[33mee79800[m Feat: reduced caching in admin panel for almost real time data
+[33m212f786[m fixed the errors from @div pr
+[33m90192a1[m Merge pull request #17 from deveshru2712/Add/telegram-error-reporting-bot
+[33md9eb771[m Update src/utils/telegram-logger.ts
+[33me4a4e9e[m added telegram logger
+[33m35a8d4c[m Fix: casing in subjects
+[33mabe3d21[m Add: Google Tag manager
+[33me4e263a[m Fixed notes import & Responsive flashcard viewer
+[33m053c833[m Preview while bulk importing and pagination fix
+[33mffeaa3a[m feat: notes import, better promo banner & UI fixes in reports page
+[33me09fd70[m Merge pull request #14 from deveshru2712/fixing-herosection
+[33m5a7c5c5[m fix: fixing the alignment of hero section
+[33m9e17db1[m Merge pull request #13 from deveshru2712/master
+[33m5a52257[m fix: fix the text issue in the promo banner
+[33ma5b38ef[m legion promo
+[33mbdf6221[m Add: Onboarding toast component and neurobrutalism styling for notifications; update phone number error message and integrate onboarding status checks in user profile and various pages.
+[33mb7ee240[m revamp: ai section
+[33m169fa06[m Add: Env video & readme changes
+[33m39f92e6[m Add Telegram notifications for payment upgrades and report submissions
+[33mb37d414[m better bulk importing & proper url based pagination logic
+[33m851ac30[m Refactor cache configurations to increase cache times for improved performance and update premium filter dropdown to enhance clarity in filtering options
+[33m2c73a5b[m Add: implement pagination and premium status tracking in AdminUserTable
+[33maca9cf6[m Fix: Update user premium status and handle expiry logic
+[33ma8dc704[m Fixed Table & UI Fixes
+[33m716de61[m Bulk Flashcard & Quiz
+[33m58c1511[m Add: user delete feature
+[33m125725f[m Added "YT Video block", Added Handwritten field & other improvments
+[33m4ab3869[m Merge pull request #9 from Rival-05/fix/flicker
+[33m11bd912[m Removed unneccessary stuff
+[33m395a62a[m Added new type field Added new dropdown Added More micro interactions And more centralized caching
+[33md51b6e1[m used NEXT HEAD
+[33ma8c1e6a[m Merge branch 'master' into fix/flicker
+[33mee5010d[m Removed suppress-hydration-warning and moved Script into separate head.tsx file.
+[33me1bf120[m Merge pull request #10 from ramxcodes/fixing-flashcard-filter
+[33m273276d[m Fixed the flashcard dropdown sorting bug
+[33mda00a70[m Fixed flicker
+[33m179ad96[m sort notes & ui improvements
+[33mf00113a[m Add sorting functionality for flashcards and quizzes with SortDropdown component
+[33maae13d5[m Fixed admin panel button not showing up on static routes
+[33mbb08277[m Quiz & flashcard pagination & better onboarding form
+[33mc4ee95b[m adding stats in quiz & pagination in flashcards
+[33m94a5302[m Improve pre-commit hook with auto-fixing and better UX
+[33m7dbf7e1[m Refactor flashcard access check, enhance AI chat input sanitization, and improve error handling across admin components
+[33m7f4ad5b[m add lint & formatting with husky hook
+[33m441ca9c[m feat: add premium management
+[33m68c79bd[m better ux on oneboarding form
+[33m13a7b58[m Create .env.example
+[33m9ac09c8[m Umami analytics
+[33m3c679ff[m revamped accessdenied
+[33m338e959[m Fixed styling of notes content editor
+[33m7aa2ed0[m Merge pull request #6 from ramxcodes/sanity-editor
+[33ma6ed73d[m added cache revalidation for notes
+[33mea0113b[m Sanity notes editor
+[33m7d5b8f3[m Fixing OG image try 1
+[33meccb41a[m changed var name
+[33mfa4937e[m Added piracy page & MetaFix
+[33md816bf8[m Create LICENSE
+[33m2df941b[m Open source stuff
+[33mce0565d[m ui & piracy protection
+[33m37f38d6[m Fixed admin caching
+[33m281f219[m Suggest next unit & other content
+[33m94eecd9[m Fixed whatsapp link
+[33mdd74a2b[m Fixed referral system bug!
+[33m517ed79[m Improved AI loader & UI fixes
+[33m3089fa2[m Report fixes & admin side report system
+[33m91fd52d[m new logo & client side session hook
+[33mc09a065[m Fixed nav session issue
+[33m2c97056[m fixing weird error 1
+[33m32755d5[m fixing lockfile version
+[33me1d248d[m update nixpack
+[33m0df5470[m added nixpack config
+[33md167b37[m fixed umami api rewrite rule
+[33m6404404[m tried ai slop
+[33ma9f94cc[m Logo & ui fixes added husky
+[33mf9d1a4f[m error & not found page
+[33md4b2eaf[m metadata and notes og image
+[33me543d7f[m more of analytics
+[33m4f05056[m umami analytics
+[33maf2f501[m UI fixes after video
+[33mc65bbc7[m Notes Backup
+[33mfb9aa1e[m ui changes
+[33m8132189[m small fix
+[33mcdea305[m [ ENHANCE ] : Admin panel ai monitoring
+[33m5c48527[m Shipped AI chatbot
+[33m5f608dc[m loader imp
+[33mc7582c9[m [ ENHANCE ] Upgrate plan
+[33mdac383f[m Smol fixes
+[33m24f8f66[m Flashcards ADMIN + USER
+[33m9baa7bf[m [ REFACT ] - Quiz backend and made it fast
+[33m94167fb[m User quiz system
+[33mc3dff58[m REFACT filter notes component
+[33m2fb980e[m [ DEV ] : Quizzes admin panel is done
+[33m5b31e5a[m [ REFACT + DEV ] Discount / coupon system
+[33med56758[m [ REFACT ] : Premium section
+[33ma98101b[m Enhance admin panel integration and UI updates. Updated admin page structure to include AdminStatics and AdminUserTable components. Improved BlockedPage styling for better user experience. Added admin status check in NavBar for conditional rendering of Admin Panel button. Updated global CSS background color for dark mode. Introduced new utility functions for academic display names.
+[33mccc4ef2[m ui changes
+[33mddb23dd[m referral
+[33m28cf2b0[m Report system
+[33md6cc972[m lenis and more revamping
+[33mcb145bb[m done with static pages
+[33m0ee7e74[m notes page
+[33m8d30a26[m footer and finishing touch
+[33mf72d156[m landing
+[33m6a3d6b8[m landing and premium page
+[33me79f54f[m [IMP] : search & filter
+[33mf6d9748[m Add loading skeletons for profile and note pages, implement ScrollToTop component, and refactor search functionality
+[33m409347a[m Better search & infinite notes
+[33m37db00a[m added Table, codeblocks etc
+[33m9c9331a[m better TOC, avatar, & notesfont control & scroll process
+[33m6130ac9[m Better notes pagination and centralized caching for unstable cache function
+[33mf48be20[m added image support
+[33mbcdb6f8[m Refactor onboarding process and enhance user experience. Updated handleOnboarding function to return structured error responses, added checks for unique phone number constraints, and improved profile redirection logic. Enhanced onboarding form with dynamic degree, year, and semester selection based on university input. Introduced new academic configuration system for better management of university-related data.
+[33m352f7ed[m notes page improvements
+[33med7299f[m refactor icon
+[33m42b529e[m fixed fingerprinting & toc icon fixes
+[33m5e9911e[m Enhance notes functionality with filtering, pagination, and improved device 
