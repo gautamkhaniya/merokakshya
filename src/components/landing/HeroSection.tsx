@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
   },
   {
     name: "John Doe",
-    image: "/avatar/4.jpg",
+    image: "/avatar/4.jpeg",
   },
   {
     name: "John Doe",
