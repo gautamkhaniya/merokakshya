@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Study Notes - Comprehensive Academic Resources | Mero Kakshya",
     description:
       "Browse through thousands of comprehensive study notes across different universities, degrees, and subjects. Find the perfect notes to boost your academic performance.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/notes`,
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.com.np"}/notes`,
     siteName: "Mero Kakshya",
     locale: "en_US",
     type: "website",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     creator: "@merokakshya",
   },
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.in"}/notes`,
+    canonical: `${process.env.NEXT_PUBLIC_WEBSITE_URL || "http://stag.merokakshya.com.np"}/notes`,
   },
   robots: {
     index: true,

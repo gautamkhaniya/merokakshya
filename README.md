@@ -2,7 +2,7 @@
 
 Welcome to Mero Kakshya, a web platform designed for students to read and share college notes easily. Built with a modern tech stack, it ensures an easy-to-use, visually appealing, and responsive experience.
 
-![HeroSectionImage](https://i.postimg.cc/8PvmSp4y/localhost-3000.png)
+![HeroSectionImage](https://scontent.fktm21-2.fna.fbcdn.net/v/t1.6435-9/101721278_1122468901460853_6004700472668061696_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=jnY5xvVc1O8Q7kNvwHa1haH&_nc_oc=AdldSPXyg09Obcas-9YzDl4_bCvJ3_g8-5wQToEJgTWbUUzu1Hx8OFIGcNuBbcw3Rp_K1DfUAjVpVUqWRvNlms_R&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=IBpbsg6vs36Vo-ZV5eeOmg&oh=00_Afljc1z-mWVqYinmPzE-_Plz3HQRFIx0NzwSyn6sSZ9y6A&oe=696226F6)
 
 ### Features :
 
@@ -231,8 +231,8 @@ src/
 
 **Academic Hierarchy:**
 
-- University: `MEDICAPS`, `IPS`
-- Degree: `BTECH_CSE`, `BTECH_IT`
+- University: `IAAS`, `OTHER_INSTITUTIONS`
+- Degree: `AGRICULTURE`, `OTHER_DEGREES`
 - Year: `FIRST_YEAR`, `SECOND_YEAR`, etc.
 - Semester: `FIRST_SEMESTER`, `SECOND_SEMESTER`, etc.
 
