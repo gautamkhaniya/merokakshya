@@ -20,7 +20,7 @@ export const NOTES_QUERY =
     (!defined($type) || 
       ($type == "all") ||
       ($type == "notes" && type == "NOTES") ||
-      ($type == "syllabus" && type == "SYLLABUS") ||
+      ($type == "mst" && type == "MST") ||
       ($type == "pyq" && type == "PYQ") ||
       ($type == "one-shot" && type == "ONE-SHOT") ||
       ($type == "video-material" && type == "VIDEO-MATERIAL") ||
@@ -69,7 +69,7 @@ export const NOTES_COUNT_QUERY =
     (!defined($type) || 
       ($type == "all") ||
       ($type == "notes" && type == "NOTES") ||
-      ($type == "syllabus" && type == "SYLLABUS") ||
+      ($type == "mst" && type == "MST") ||
       ($type == "pyq" && type == "PYQ") ||
       ($type == "one-shot" && type == "ONE-SHOT") ||
       ($type == "video-material" && type == "VIDEO-MATERIAL") ||

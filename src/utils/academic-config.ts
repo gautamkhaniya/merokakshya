@@ -528,8 +528,8 @@ export const getTypeDisplayName = (type: string) => {
   switch (type) {
     case "NOTES":
       return "Notes";
-    case "SYLLABUS":
-      return "SYLLABUS";
+    case "MST":
+      return "MST";
     case "PYQ":
       return "PYQ";
     case "ONE-SHOT":

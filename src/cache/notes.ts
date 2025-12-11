@@ -57,7 +57,7 @@ export const notesCacheConfig = {
 
   getExamContent: {
     cacheTime: 21600,
-    tags: ["notes", "exam", "syllabus", "pyq", "one-shot"],
+    tags: ["notes", "exam", "mst", "pyq", "one-shot"],
     cacheKey: "exam-content",
   } as CacheConfig,
 };

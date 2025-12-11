@@ -13,7 +13,7 @@ import {
 export type TypeFilterOption =
   | "all"
   | "notes"
-  | "syllabus"
+  | "mst"
   | "pyq"
   | "one-shot"
   | "video-material"
@@ -26,7 +26,7 @@ interface NotesTypeFilterDropdownProps {
 const typeFilterOptions = [
   { value: "all", label: "All Types" },
   { value: "notes", label: "Notes" },
-  { value: "syllabus", label: "SYLLABUS" },
+  { value: "mst", label: "MST" },
   { value: "pyq", label: "PYQ" },
   { value: "one-shot", label: "One-Shot" },
   { value: "video-material", label: "Video Material" },

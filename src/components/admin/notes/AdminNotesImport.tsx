@@ -704,7 +704,7 @@ export default function AdminNotesImport() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="NOTES">Notes</SelectItem>
-                    <SelectItem value="SYLLABUS">SYLLABUS</SelectItem>
+                    <SelectItem value="MST">MST</SelectItem>
                     <SelectItem value="PYQ">PYQ</SelectItem>
                     <SelectItem value="ONE-SHOT">One-Shot</SelectItem>
                     <SelectItem value="VIDEO-MATERIAL">
