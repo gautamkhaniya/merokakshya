@@ -850,7 +850,7 @@ export function AdminPremiumGrantForm({
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="MEDICAPS">Iaas</SelectItem>
+                        <SelectItem value="MEDICAPS">Medicaps</SelectItem>
                         <SelectItem value="IPS">IPS</SelectItem>
                       </SelectContent>
                     </Select>
@@ -1442,7 +1442,7 @@ export function AdminPremiumGrantForm({
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="MEDICAPS"></SelectItem>
+                        <SelectItem value="MEDICAPS">Medicaps</SelectItem>
                         <SelectItem value="IPS">IPS</SelectItem>
                       </SelectContent>
                     </Select>
