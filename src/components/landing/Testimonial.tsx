@@ -124,7 +124,7 @@ const testimonials = [
   {
     name: "Bedanta Ghimire",
     role: "Agriculture (Other institutions)",
-    image: "/avatar/4.jpg",
+    image: "/avatar/4.jpeg",
     content:
       "The practice quizzes helped me identify my weak areas quickly. My grades improved significantly after using Mero Kakshya.",
     rating: 5,

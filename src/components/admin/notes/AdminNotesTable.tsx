@@ -59,11 +59,21 @@ export default function AdminNotesTable({
     }
   };
 
-  const getYearDisplay = (value: string) => {
+  // const getYearDisplay = (value: string) => {
+  //   return value.replace("-", " ");
+  // };
+
+  // const getSemesterDisplay = (value: string) => {
+  //   return value.replace("-", " ");
+  // };
+
+  const getYearDisplay = (value?: string | null) => {
+    if (!value) return "—"; // fallback for null/undefined
     return value.replace("-", " ");
   };
 
-  const getSemesterDisplay = (value: string) => {
+  const getSemesterDisplay = (value?: string | null) => {
+    if (!value) return "—";
     return value.replace("-", " ");
   };
 
