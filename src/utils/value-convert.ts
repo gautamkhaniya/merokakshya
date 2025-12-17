@@ -26,7 +26,7 @@ export function convertSanityValueToPrismaValue(
       "5th-semester": "FIFTH_SEMESTER",
       "6th-semester": "SIXTH_SEMESTER",
       "7th8th-semester": "SEVENTHEIGHTH_SEMESTER",
-      "Pas-sed": "PASSED",
+      passed: "PASSED",
     },
   };
 

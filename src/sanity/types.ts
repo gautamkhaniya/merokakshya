@@ -90,7 +90,7 @@ export type Note = {
     | "5th-semester"
     | "6th-semester"
     | "7th8th-semester"
-    | "Pas-sed";
+    | "passed";
   subject?: string;
   type?:
     | "NOTES"
@@ -353,7 +353,7 @@ export type NOTES_QUERYResult = Array<{
     | "5th-semester"
     | "6th-semester"
     | "7th8th-semester"
-    | "Pas-sed"
+    | "passed"
     | null;
   subject: string | null;
   type:
@@ -393,7 +393,7 @@ export type NOTE_BY_SLUG_QUERYResult = {
     | "5th-semester"
     | "6th-semester"
     | "7th8th-semester"
-    | "Pas-sed"
+    | "passed"
     | null;
   subject: string | null;
   type:

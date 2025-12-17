@@ -81,7 +81,7 @@ export const SEMESTER_OPTIONS = {
   },
   PASSED: {
     prismaValue: "PASSED",
-    sanityValue: "Pas-sed",
+    sanityValue: "passed",
     title: "Passed",
   },
 } as const;

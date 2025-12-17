@@ -64,7 +64,7 @@ export const note = defineType({
           { title: "5th Semester", value: "5th-semester" },
           { title: "6th Semester", value: "6th-semester" },
           { title: "7th/8th Semester", value: "7th8th-semester" },
-          { title: "Passed", value: "Pas-sed" },
+          { title: "Passed", value: "passed" },
         ],
       },
     }),
