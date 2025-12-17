@@ -109,7 +109,7 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
           FOURTH_YEAR: {
             info: {
               value: "FOURTH_YEAR",
-              label: "4th Year",
+              label: "4th Year/Pass out",
               prismaValue: "FOURTH_YEAR",
               sanityValue: "4th-year",
             },
@@ -224,13 +224,13 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
             semesters: {
               SEVENTH_SEMESTER: {
                 value: "SEVENTH_SEMESTER",
-                label: "7th Semester",
+                label: "7th/8th Semester",
                 prismaValue: "SEVENTH_SEMESTER",
                 sanityValue: "7th-semester",
               },
               EIGHTH_SEMESTER: {
                 value: "EIGHTH_SEMESTER",
-                label: "8th Semester",
+                label: "Pass out",
                 prismaValue: "EIGHTH_SEMESTER",
                 sanityValue: "8th-semester",
               },
