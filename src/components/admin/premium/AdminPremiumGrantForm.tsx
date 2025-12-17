@@ -934,10 +934,10 @@ export function AdminPremiumGrantForm({
                           6th Semester
                         </SelectItem>
                         <SelectItem value="SEVENTH_SEMESTER">
-                          7th Semester
+                          7th/8th Semester
                         </SelectItem>
                         <SelectItem value="EIGHTH_SEMESTER">
-                          8th Semester
+                          Pass out
                         </SelectItem>
                       </SelectContent>
                     </Select>
@@ -1526,10 +1526,10 @@ export function AdminPremiumGrantForm({
                           6th Semester
                         </SelectItem>
                         <SelectItem value="SEVENTH_SEMESTER">
-                          7th Semester
+                          7th/8th Semester
                         </SelectItem>
                         <SelectItem value="EIGHTH_SEMESTER">
-                          8th Semester
+                          Pass out
                         </SelectItem>
                       </SelectContent>
                     </Select>

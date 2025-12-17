@@ -77,11 +77,11 @@ export const SEMESTER_OPTIONS = {
   SEVENTH_SEMESTER: {
     prismaValue: "SEVENTH_SEMESTER",
     sanityValue: "7th-semester",
-    title: "7th Semester",
+    title: "7th/8th Semester",
   },
   EIGHTH_SEMESTER: {
     prismaValue: "EIGHTH_SEMESTER",
     sanityValue: "8th-semester",
-    title: "8th Semester",
+    title: "Pass out",
   },
 } as const;

@@ -64,8 +64,8 @@ export function convertPrismaValueToDisplayFormat(
       FOURTH_SEMESTER: "4th Semester",
       FIFTH_SEMESTER: "5th Semester",
       SIXTH_SEMESTER: "6th Semester",
-      SEVENTH_SEMESTER: "7th Semester",
-      EIGHTH_SEMESTER: "8th Semester",
+      SEVENTH_SEMESTER: "7th/8th Semester",
+      EIGHTH_SEMESTER: "Pass out",
     },
   };
 
