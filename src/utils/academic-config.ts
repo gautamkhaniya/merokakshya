@@ -114,17 +114,17 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
               sanityValue: "4th-year",
             },
             semesters: {
-              SEVENTH_SEMESTER: {
-                value: "SEVENTH_SEMESTER",
-                label: "7th Semester",
-                prismaValue: "SEVENTH_SEMESTER",
-                sanityValue: "7th-semester",
+              SEVENTHEIGHTH_SEMESTER: {
+                value: "SEVENTHEIGHTH_SEMESTER",
+                label: "7th/8th Semester",
+                prismaValue: "SEVENTHEIGHTH_SEMESTER",
+                sanityValue: "7th8th-semester",
               },
-              EIGHTH_SEMESTER: {
-                value: "EIGHTH_SEMESTER",
-                label: "8th Semester",
-                prismaValue: "EIGHTH_SEMESTER",
-                sanityValue: "8th-semester",
+              PASSED: {
+                value: "PASSED",
+                label: "Passed",
+                prismaValue: "PASSED",
+                sanityValue: "Pas-sed",
               },
             },
           },
@@ -222,17 +222,17 @@ export const ACADEMIC_CONFIG: Record<string, UniversityConfig> = {
               sanityValue: "4th-year",
             },
             semesters: {
-              SEVENTH_SEMESTER: {
-                value: "SEVENTH_SEMESTER",
-                label: "7th Semester",
-                prismaValue: "SEVENTH_SEMESTER",
-                sanityValue: "7th-semester",
+              SEVENTHEIGHTH_SEMESTER: {
+                value: "SEVENTHEIGHTH_SEMESTER",
+                label: "7th/8th Semester",
+                prismaValue: "SEVENTHEIGHTH_SEMESTER",
+                sanityValue: "7th8th-semester",
               },
-              EIGHTH_SEMESTER: {
-                value: "EIGHTH_SEMESTER",
-                label: "8th Semester",
-                prismaValue: "EIGHTH_SEMESTER",
-                sanityValue: "8th-semester",
+              PASSED: {
+                value: "PASSED",
+                label: "Passed",
+                prismaValue: "PASSED",
+                sanityValue: "Pas-sed",
               },
             },
           },

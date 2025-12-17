@@ -74,14 +74,14 @@ export const SEMESTER_OPTIONS = {
     sanityValue: "6th-semester",
     title: "6th Semester",
   },
-  SEVENTH_SEMESTER: {
-    prismaValue: "SEVENTH_SEMESTER",
-    sanityValue: "7th-semester",
-    title: "7th Semester",
+  SEVENTHEIGHTH_SEMESTER: {
+    prismaValue: "SEVENTHEIGHTH_SEMESTER",
+    sanityValue: "7th8th-semester",
+    title: "7th/8th Semester",
   },
-  EIGHTH_SEMESTER: {
-    prismaValue: "EIGHTH_SEMESTER",
-    sanityValue: "8th-semester",
-    title: "8th Semester",
+  PASSED: {
+    prismaValue: "PASSED",
+    sanityValue: "Pas-sed",
+    title: "Passed",
   },
 } as const;

@@ -25,8 +25,8 @@ export function convertSanityValueToPrismaValue(
       "4th-semester": "FOURTH_SEMESTER",
       "5th-semester": "FIFTH_SEMESTER",
       "6th-semester": "SIXTH_SEMESTER",
-      "7th-semester": "SEVENTH_SEMESTER",
-      "8th-semester": "EIGHTH_SEMESTER",
+      "7th8th-semester": "SEVENTHEIGHTH_SEMESTER",
+      "Pas-sed": "PASSED",
     },
   };
 
@@ -64,8 +64,8 @@ export function convertPrismaValueToDisplayFormat(
       FOURTH_SEMESTER: "4th Semester",
       FIFTH_SEMESTER: "5th Semester",
       SIXTH_SEMESTER: "6th Semester",
-      SEVENTH_SEMESTER: "7th Semester",
-      EIGHTH_SEMESTER: "8th Semester",
+      SEVENTHEIGHTH_SEMESTER: "7th/8th Semester",
+      PASSED: "Passed",
     },
   };
 

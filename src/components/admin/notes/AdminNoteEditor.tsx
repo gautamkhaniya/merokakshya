@@ -397,8 +397,10 @@ export default function AdminNoteEditor({ note }: Props) {
                     <SelectItem value="4th-semester">4th Semester</SelectItem>
                     <SelectItem value="5th-semester">5th Semester</SelectItem>
                     <SelectItem value="6th-semester">6th Semester</SelectItem>
-                    <SelectItem value="7th-semester">7th Semester</SelectItem>
-                    <SelectItem value="8th-semester">8th Semester</SelectItem>
+                    <SelectItem value="7th8th-semester">
+                      7th/8th Semester
+                    </SelectItem>
+                    <SelectItem value="Pas-sed">Passed</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
